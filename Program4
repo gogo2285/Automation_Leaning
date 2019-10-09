@@ -21,12 +21,14 @@ public class Program4 {
 				char b= S.charAt(j);
 				if (a==b)
 			{
+					
 				System.out.println(a + " is at " + j);
 				k++;
 		}
 				
 			}
 			System.out.println(a +" occurs "+ k +" times");
+			
 		}
 		
 			}
