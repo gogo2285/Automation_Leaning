@@ -1,4 +1,5 @@
-package selenium;
+package Selenium;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -12,7 +13,7 @@ public class dragndrop2 {
 
 	public static void main(String[] args) throws Exception {
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\gb152\\selenium\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\java\\GB\\Selenium_Practise\\Driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver(); //launch url	
 		driver.get("https://jqueryui.com/droppable/");
 		driver.manage().window().maximize();
