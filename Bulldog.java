@@ -1,12 +1,18 @@
-package constructors;
+package Inheritence;
 
-public class Bulldog extends dog {
+public class Bulldog extends Dog {
 	
-	public Bulldog()
-	
+	public void animalmethod()
 	{
-		super(10);//  if we do not have by default constructor in parent class and if we do not define this also then bulldog will have error
-		System.out.println("Bulldog constructor");
+		System.out.println("this is buldog method");
+	}
+
+	public static void main(String[] args) {
+
+		Bulldog d= new Bulldog();
+		d.animalmethod();
+		d.sound();
+
 	}
 
 }

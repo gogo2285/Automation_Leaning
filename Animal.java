@@ -1,15 +1,14 @@
-package constructors;
+package Inheritence;
 
 public class Animal {
 	
-	public Animal()
+	public void sound ()
 	{
-		System.out.println("Animal constructor");
-	}
-	
-	public void show()
-	{
-		System.out.println("parent show");
+		System.out.println("animal sound");
 	}
 
+	public void animalmethod()
+	{
+		System.out.println("this is anmal method");
+	}
 }
